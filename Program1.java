@@ -43,6 +43,6 @@ class Program1 extends ConsoleProgram {
     System.out.println(strTop5[strTop5.length / 2]);
 
     System.out.println(dblMenuItems[dblMenuItems.length - 2]);
-    */
+    
   }
 }
