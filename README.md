@@ -157,42 +157,59 @@ to reference the number of days in april, I would use daysInMonth[3]
 * `to access the nth element, we use the n-1 index.  i.e the first element is in index 0, i.e marks[0]`
 
 i.e printing out the 3rd element in array
+```
+System.out.println(marks[2]);
+```
 
 
 ```
-System.out.println(marks[2]);
+class Program1 extends ConsoleProgram {
 
-public class YourClassNameHere {
-    public static void main(String[] args) {
-      int[] marks;
-      marks = new int[5];
+  public void run() {
 
+    String[] strNames =  new String[5];
+    double[] dblMarks = new double[5];
+    int[] absences = {4, 3, 6, 8, 9};
+    
 
-      marks[0] = 75;
-      marks[1] = 81;
-      marks[2] = 67;
-      marks[3] = 85;
-      marks[4] = 91;
+    // set the names in the list
+    strNames[0] = "Gordon";
+    strNames[1] = "Michael";
+    strNames[2] = "Christine";
+    strNames[3] = "Holly";
+    strNames[4] = "Ben";
 
+    // set the marks in the list
+    dblMarks[0] = 89.9;
+    dblMarks[1] = 82.3;
+    dblMarks[2] = 91.4;
+    dblMarks[3] = 93.6;
+    dblMarks[4] = 98.7;
 
-      int[] absences = {3, 2, 1, 0, 4};
+    // print the marks and names
+    System.out.println(strNames[0] + " has a mark of " + dblMarks[0]);    
+    
+    
+    // more examples
+    int[] intCanCount = { 43, 65, 34, 90, 101 };
+    String[] strTop5 = new String[5];
+    double[] dblMenuItems = { 8.99, 2.99, 1.50, 5.99, 2.99 };
 
+    System.out.println(intCanCount[0]);
+    System.out.println(intCanCount[4]);
+    System.out.println(intCanCount[intCanCount.length - 1]);
 
+    strTop5[0] = "Ambitionz Az a Ridah";
+    strTop5[1] = "All Bout U[Explicit]";
+    strTop5[2] = "Skandalouz";
+    strTop5[3] = "Got My Mind Made Up";
+    strTop5[4] = "How Do U Want It";
 
-      String[] names;
-      names = new String[5];
+    System.out.println(strTop5[strTop5.length / 2]);
 
-
-      names[0] = "Karan";
-      names[1] = "IanTheComputerScientist";
-      names[2] = "Doorag";
-      names[3] = "WheresKeven";
-      names[4] = "PurpleRain";
-
-
-      System.out.println(names[2] + ": " + marks[2]);
-
-    }
+    System.out.println(dblMenuItems[dblMenuItems.length - 2]);
+    
+  }
 }
 ```
 
@@ -201,8 +218,6 @@ public class YourClassNameHere {
 
 
 # You Try
-
-
 
 1. Create an int array called canCounts that stores the number of cans collected for 5 homerooms.  
     1. Assign values to the elements in the array.  
