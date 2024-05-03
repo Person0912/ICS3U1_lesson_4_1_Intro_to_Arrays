@@ -1,12 +1,12 @@
 # 4.1 Introduction to Arrays
 * [What is an Array?](https://github.com/SACHSTech/ICS3U1_lesson_4_1_Intro_to_Arrays/blob/main/README.md#what-is-an-array)
 * [Declaring and Array](https://github.com/SACHSTech/ICS3U1_lesson_4_1_Intro_to_Arrays/blob/main/README.md#declaring-an-array)
-* [Creating an Array]()
-* [Declaring an Array]()
-* [Default Values]()
-* [Setting Element Values]()
-* [Initializing Arrays]()
-* [Accessing Elements]()
+* [Creating an Array](https://github.com/SACHSTech/ICS3U1_lesson_4_1_Intro_to_Arrays/blob/main/README.md#creating-and-array)
+* [Declaring an Array](https://github.com/SACHSTech/ICS3U1_lesson_4_1_Intro_to_Arrays/blob/main/README.md#declaring-an-array)
+* [Default Values](https://github.com/SACHSTech/ICS3U1_lesson_4_1_Intro_to_Arrays/blob/main/README.md#default-element-values)
+* [Setting Element Values](https://github.com/SACHSTech/ICS3U1_lesson_4_1_Intro_to_Arrays/blob/main/README.md#setting-element-values)
+* [Initializing Arrays](https://github.com/SACHSTech/ICS3U1_lesson_4_1_Intro_to_Arrays/blob/main/README.md#initializing-an-array)
+* [Accessing Elements](https://github.com/SACHSTech/ICS3U1_lesson_4_1_Intro_to_Arrays/blob/main/README.md#accessing-elements-of-an-array)
 
 
 ## Current Issues Representing Data
