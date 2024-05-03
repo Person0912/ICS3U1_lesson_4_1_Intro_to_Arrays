@@ -1,5 +1,5 @@
 # 4.1 Introduction to Arrays
-* [What is an Array?]()
+* [What is an Array?](https://github.com/SACHSTech/ICS3U1_lesson_4_1_Intro_to_Arrays/blob/main/README.md#what-is-an-array)
 * [Declaring and Array]()
 * [Creating an Array]()
 * [Declaring an Array]()
