@@ -1,4 +1,12 @@
 # 4.1 Introduction to Arrays
+* [What is an Array?]()
+* [Declaring and Array]()
+* [Creating an Array]()
+* [Declaring an Array]()
+* [Default Values]()
+* [Setting Element Values]()
+* [Initializing Arrays]()
+* [Accessing Elements]()
 
 
 ## Current Issues Representing Data
