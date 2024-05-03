@@ -1,12 +1,13 @@
 class Program1 extends ConsoleProgram {
 
   public void run() {
-
+    // declaring arrays
     String[] strNames =  new String[5];
     double[] dblMarks = new double[5];
+
+   // initializing an array
     int[] absences = {4, 3, 6, 8, 9};
     
-
     // set the names in the list
     strNames[0] = "Gordon";
     strNames[1] = "Michael";
@@ -25,21 +26,24 @@ class Program1 extends ConsoleProgram {
     System.out.println(strNames[0] + " has a mark of " + dblMarks[0]);    
     
     
-    // more examples
+    // Initializing an array
     int[] intCanCount = { 43, 65, 34, 90, 101 };
     String[] strTop5 = new String[5];
     double[] dblMenuItems = { 8.99, 2.99, 1.50, 5.99, 2.99 };
 
+   // Accessing Element values
     System.out.println(intCanCount[0]);
     System.out.println(intCanCount[4]);
     System.out.println(intCanCount[intCanCount.length - 1]);
 
+    // Setting Element Values
     strTop5[0] = "Ambitionz Az a Ridah";
     strTop5[1] = "All Bout U[Explicit]";
     strTop5[2] = "Skandalouz";
     strTop5[3] = "Got My Mind Made Up";
     strTop5[4] = "How Do U Want It";
 
+   // Accessing array length
     System.out.println(strTop5[strTop5.length / 2]);
 
     System.out.println(dblMenuItems[dblMenuItems.length - 2]);
