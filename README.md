@@ -1,6 +1,6 @@
 # 4.1 Introduction to Arrays
 * [What is an Array?](https://github.com/SACHSTech/ICS3U1_lesson_4_1_Intro_to_Arrays/blob/main/README.md#what-is-an-array)
-* [Declaring and Array]()
+* [Declaring and Array](https://github.com/SACHSTech/ICS3U1_lesson_4_1_Intro_to_Arrays/blob/main/README.md#declaring-an-array)
 * [Creating an Array]()
 * [Declaring an Array]()
 * [Default Values]()
@@ -20,7 +20,7 @@ Consider a program that manages student marks for a class.  This program must be
 Up to this point, the only way we've been able to store data is via variables.  What issues arise when trying to represent the data in the program described above?
 
 
-# What is an Array?
+## What is an Array?
 
 Arrays are a data structure (a way of storing data) that allows you to programmatically specify one item from a list of items.  By using arrays, programs can gain enormous flexibility to handle large amounts of data.
 
@@ -42,7 +42,7 @@ Arrays are a data structure (a way of storing data) that allows you to programma
 * To specify an individual element in an array you must specify the variable name and an **index **to the array. The **index **is the number of the array element.
 
 
-# Declaring an Array
+## Declaring an Array
 
 Like regular variables, the data type of an array must be specified when the array is declared.  It looks similar to a regular variable declaration, except that square brackets [ ] appear after the base type
 
@@ -67,7 +67,7 @@ String[] names;
 The declaration does not actually create the array, it merely tells the compiler that the variable will be used to store an array.
 
 
-# Creating and Array
+## Creating and Array
 
 To create an array, we use the `new` keyword, followed by the name of the base data type, followed by the number of elements in the array in square brackets
 
@@ -103,7 +103,7 @@ names = new String[30];
 When an array of a numeric data type like int or double is created, each element is initialized to **zero**.  When it is an array of objects like String is created, the elements have default value of `null`.
 
 
-# Setting Element Values
+## Setting Element Values
 
 Array elements can be assigned values via assignment statements.  
 
@@ -123,7 +123,7 @@ etc.
 
 
 
-# Initializing an Array
+## Initializing an Array
 
 
 ```
@@ -156,7 +156,7 @@ to reference the number of days in april, I would use daysInMonth[3]
 
 
 
-# Accessing Elements of an Array
+## Accessing Elements of an Array
 
 
 
