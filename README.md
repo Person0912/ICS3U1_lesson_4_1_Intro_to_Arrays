@@ -1,4 +1,4 @@
-# 4.1 Introduction to Arrays
+# 4.1 Introduction to Arrays Weewoo Random Edit
 * [What is an Array?](https://github.com/SACHSTech/ICS3U1_lesson_4_1_Intro_to_Arrays/blob/main/README.md#what-is-an-array)
 * [Declaring and Array](https://github.com/SACHSTech/ICS3U1_lesson_4_1_Intro_to_Arrays/blob/main/README.md#declaring-an-array)
 * [Creating an Array](https://github.com/SACHSTech/ICS3U1_lesson_4_1_Intro_to_Arrays/blob/main/README.md#creating-and-array)
